@@ -1,0 +1,8 @@
+﻿body {margin:0;padding:0;}
+
+.th{ background:url(../images/reg_thbg.gif) repeat-x; height:29px; color:#FFF; font-size:13px; font-family:微软雅黑; font-weight:bolder;}
+.tdtop{ display:block; background:url(../images/right_top.gif) 0 0 no-repeat; width:324px; height:6px; font-size:0; line-height:0; float:right;}
+.tdbot{ display:block; background:url(../images/faq_bg_bottom.gif) 0 0 no-repeat; width:324px; height:21px; font-size:0; line-height:0; float:right;}
+
+a{font: 宋体;cursor: pointer;text-decoration: none;color: #670606;}
+a:hover{text-decoration: underline;}

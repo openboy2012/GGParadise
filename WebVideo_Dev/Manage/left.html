@@ -1,0 +1,324 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="css/left_css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script type="text/javascript">
+    function showsubmenu(sid) {
+        var privilege = document.getElementById('privilege').value;
+        if (privilege > "1") {
+            whichEl = eval("submenu" + sid);
+            if (whichEl.style.display == "none") {
+                eval("submenu" + sid + ".style.display=\"\";");
+            }
+            else {
+                eval("submenu" + sid + ".style.display=\"none\";");
+            }
+        }
+        else {
+            if (sid == "3" || sid == "4" || sid == "5") {
+                alert("您无权进行此操作！");
+            }
+            else {
+                whichEl = eval("submenu" + sid);
+                if (whichEl.style.display == "none") {
+                    eval("submenu" + sid + ".style.display=\"\";");
+                }
+                else {
+                    eval("submenu" + sid + ".style.display=\"none\";");
+                }
+            }
+        }
+    }
+
+    function checkPrivilege() {
+        var privilege = document.getElementById('privilege').value;
+        if (privilege == "3")
+            return true;
+        else {
+            alert('您无权查看系统日志');
+            return false;
+        }
+    }
+</script>
+
+<body>
+    <input type="hidden" id="privilege" name="privilege" />
+    <table cellpadding="0" cellspacing="0" class="framebody">
+        <tr>
+            <td class="frametop">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 5px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="bar">
+                            <div onclick="javascript:showsubmenu(1);" style="cursor: pointer; width: 140px;">
+                                评论审核</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table id="submenu1" cellspacing="0" cellpadding="0" style="display: none;" class="framecontent">
+                                <tr>
+                                    <td width="2%">
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="commentManage.aspx" target="main">评论审核</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="framefooter">
+            </td>
+        </tr>
+        <tr>
+            <td class="frametop">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 5px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="bar">
+                            <div onclick="javascript:showsubmenu(2);" style="cursor: pointer; width: 140px;">
+                                视频审核</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table id="submenu2" cellspacing="0" cellpadding="0" style="display: none;" class="framecontent">
+                                <tr>
+                                    <td width="2%">
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="videoManage.aspx?type=auditing" target="main">视频审核管理</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="framefooter">
+            </td>
+        </tr>
+        <tr>
+            <td class="frametop">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 5px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="bar">
+                            <div onclick="javascript:showsubmenu(3);" style="cursor: pointer; width: 140px;">
+                                视频管理</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table id="submenu3" cellspacing="0" cellpadding="0" style="display: none;" class="framecontent">
+                                <tr>
+                                    <td width="2%">
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="videoManage.aspx?type=humour" target="main">幽默类视频</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="2%">
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="videoManage.aspx?type=film" target="main">电影类视频</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="2%">
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="videoManage.aspx?type=sport" target="main">体育类视频</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="2%">
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="videoManage.aspx?type=cartoon" target="main">动漫类视频</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="2%">
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="videoManage.aspx?type=music" target="main">音乐类视频</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="2%">
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="videoManage.aspx?type=tv" target="main">电视剧视频</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="framefooter">
+            </td>
+        </tr>
+        <tr>
+            <td class="frametop">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 5px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="bar">
+                            <div onclick="javascript:showsubmenu(4);" style="cursor: pointer; width: 140px;">
+                                用户管理</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table id="submenu4" cellspacing="0" cellpadding="0" style="display: none;" class="framecontent">
+                                <tr>
+                                    <td width="2%">
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="userManage.aspx?cmd=user" target="main">本站会员管理</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="userManage.aspx?cmd=lock" target="main">账户状态管理</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="userManage.aspx?cmd=admin" target="main">会员权限管理</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="framefooter">
+            </td>
+        </tr>
+        <tr>
+            <td class="frametop">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 5px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="bar">
+                            <div onclick="javascript:showsubmenu(5);" style="cursor: pointer; width: 140px;">
+                                系统设置</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table id="submenu5" cellspacing="0" cellpadding="0" style="display: none;" class="framecontent">
+                                <tr>
+                                    <td width="2%">
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="bulletinManage.aspx" target="main">站内公告管理</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="2%">
+                                        <img src="images/closed.gif" alt="" />
+                                    </td>
+                                    <td height="23">
+                                        <a href="SystemNotes.aspx" target="main" onclick="javascript:return checkPrivilege();">
+                                            系统日志查看</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="framefooter">
+            </td>
+        </tr>
+        <tr>
+            <td class="frametop">
+            </td>
+        </tr>
+        <tr>
+            <td class="framefooter">
+            </td>
+        </tr>
+        <tr>
+            <td class="frametop">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 5px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="bar">
+                            <div style="cursor: pointer; width: 140px;">
+                                系统信息</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="framecontent">
+                            <span>
+                                <img src="images/closed.gif" alt="" />版权所有：愛轉角♂佳<br />
+                                <img src="images/closed.gif" alt="" />设计制作：愛轉角♂佳<br />
+                                <img src="images/closed.gif" alt="" />技术支持：愛轉角♂佳<br />
+                                <img src="images/closed.gif" alt="" />系统版本：1.0</span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="framefooter">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

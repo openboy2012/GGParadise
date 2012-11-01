@@ -1,0 +1,94 @@
+body
+{
+    background-color: #16ACFF;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 0 0 4px;
+}
+
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0;
+    line-height: 0;
+}
+#leftframe ul li
+{
+    margin: 0 0 3px 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+#leftframe ul li a
+{
+    display: block;
+    background-color: inherit;
+    font: 12px/20px ËÎÌו;
+    color: #1e5494;
+    text-decoration: none;
+}
+.frametop
+{
+    background: url(../images/tableline_top.jpg) no-repeat;
+    height: 5px;
+}
+
+.framebody
+{
+    background: url(../images/tablemde.jpg) repeat-y;
+    width: 100%;
+}
+
+.framefooter
+{
+    background: url(../images/tableline_bottom.jpg) no-repeat;
+    height: 5px;
+}
+
+.bar
+{
+    width: 162px;
+    background: url(../images/left_tt.gif) no-repeat;
+    height: 22px;
+    padding-left: 20px;
+    vertical-align: middle;
+    line-height: 22px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1e5494;
+}
+
+.table_bg
+{
+    background: url(../images/tablemde.jpg) repeat-y;
+    width: 100%;
+    height: auto;
+}
+
+.framecontent
+{
+    font-size: 12px;
+    color: #1e5494;
+}
+
+a
+{
+    font-size: 12px;
+    color: #1e5494;
+    text-decoration: none;
+}
+a:hover
+{
+    font-size: 12px;
+    color: #1e5494;
+    text-decoration: none;
+}

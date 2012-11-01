@@ -1,0 +1,13 @@
+﻿body{ margin:0; padding:0;}
+table{ margin:0; padding:0;}
+.td{ padding:3px 0 2px 0;}
+.th_bg{ background:url(../images/reg_thbg.gif) repeat-x; height:29px; color:#FFF; font-size:14px; line-height:20px; font-family:微软雅黑; font-weight:bolder; vertical-align:middle;padding:0px;}
+.td_bg{ background:url(../images/reg_tdbg.gif) repeat-x; height:25px; color:#670606; font-size:13px; font-family:微软雅黑; font-weight:bolder;}
+.border{ border-bottom:solid 1px #ABA884; border-left:solid 1px #ABA884; border-right:solid 1px #ABA884;}
+.tdindex{ padding:3px 0; background-color:#DCD58F;}
+.tdreg{ padding:5px 0; background-color:#DCD58F;}
+.tdbody{padding:5px 0;background-color:#DCD58F;}
+.cmmtitle{ padding:2px; background-color:Silver; font-size:12px; font-family:宋体;}
+.cmmcontent{ padding:5px; background-color:#fff; font-size:15px; font-family:微软雅黑; line-height:26px; color:#111;}
+.tdmenu{font: normal 100 14px/26px 微软雅黑; height:30px;width:100%;vertical-align: middle;padding:2px;background-color:#DCD58F;}
+ 

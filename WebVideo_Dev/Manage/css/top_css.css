@@ -1,0 +1,84 @@
+table
+{
+    font-size: 12px;
+}
+body
+{
+    font-size: 12px;
+    margin: 0;
+    background-color: #03a8f6;
+}
+img
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    color: #1e5494;
+    font-weight: bold;
+}
+a:link
+{
+    color: #1e5494;
+    font-weight: bold;
+}
+a:visited
+{
+    color: #1e5494;
+}
+a:hover
+{
+    color: #1e5494;
+}
+a:active
+{
+    color: #1e5494;
+}
+
+.topbar
+{
+    background: url(../images/top_tt_bg.gif) no-repeat;
+    color: #1e5494;
+}
+.topbar a:link
+{
+    color: #1e5494;
+}
+.topbar a:visited
+{
+    color: #1e5494;
+}
+.topbar a:hover
+{
+    color: #8b0000;
+    text-decoration: none;
+}
+.style2
+{
+    color: #111;
+}
+.style3
+{
+    color: #993399;
+}
+.style4
+{
+    color: #ffffff;
+}
+
+.clock
+{
+    font-family: Î¢ÈíÑÅºÚ;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+.td_bg
+{
+    background: url(../images/top_tt_bg.gif) no-repeat;
+    width: 71px;
+    height: 26px;
+}

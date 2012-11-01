@@ -1,0 +1,23 @@
+﻿body{ margin:0; padding:0; background:#BEB559; font:Arial,宋体; font-size:12px;}
+ul{ margin:0; padding:0; list-style-type:none; font-size:0; line-height:0;}
+.upload{border: solid 1px #004792;margin: 10px 0px;padding: 10px ;background-color: #DCD58F;}
+.upload h3{background:url(../images/reg_thbg.gif) repeat-x; height:29px; font:bolder 15px/25px 微软雅黑; color:#FFF;vertical-align:middle;padding:0px 5px;border:solid 1px #CC9900;margin:0px;}        
+.upload IFRAME{text-align:center;vertical-align:middle;border-style:none;margin:0px;width:100%;height:30px;}
+#status, .commands{ height:25px; line-height:25px; }
+.upload .commands{ float:right; }
+.hidden { display:none; }        
+#status { float:left; }
+#status.error{ color:Red;}
+#status.info{ color:#333;}
+#status.success{ color:green;}
+.txt{ background:#fff; border:1px solid #808080; padding:3px;}
+.upload ul li{ margin:0 0 3px 0; padding:0; font-size:0; line-height:0;}
+.upload ul li span{ display:block; background-color:inherit; font:normal 12px/20px 宋体; text-decoration:none;}
+.btn{ font-family:Verdana; font-size:12px; color:#FFF;background:url(../images/submitbg.gif) repeat-x;border:1px solid #111; width:70px; height:23px;cursor:pointer;}
+#divUserInfo{height:24px;margin:1px 3px;}
+#divUserInfo span{font-size: 13px;padding: 3px;line-height: 20px;color: #003366;font-weight:lighter;}
+#divUserInfo span a {font: 宋体;cursor: pointer;text-decoration: none;color: #670606;}
+#divUserInfo span a:hover { text-decoration:underline;}
+
+#UploadMain{width:100%;height:500px;}
+#UploadDiv{width:560px;margin:8% auto;height:auto;}

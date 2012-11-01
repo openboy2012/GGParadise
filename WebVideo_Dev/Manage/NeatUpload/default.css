@@ -1,0 +1,47 @@
+.ProgressDisplay
+{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.ProgressDisplay .StatusMessage
+{
+    margin: 1px;
+    height: 18px;
+}
+
+.ProgressDisplay .ProgressBar
+{
+    background-color: rgb(213, 104, 34);
+    background-image: url("progress3.gif"); /*进度条背景图片*/
+    height: 18px;
+}
+
+.ProgressDisplay .ImageButton
+{
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: inherit;
+}
+
+.ProgressDisplay .ImageButton img
+{
+    border-width: 2px;
+    border-style: outset;
+    border-color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 18px;
+    vertical-align: top;
+}
+#normalInProgress
+{
+    color: Red; /*进度条字体颜色*/
+}
+#completed
+{
+    color: Blue; /*上传完成的字体颜色*/
+}
+
+

@@ -1,0 +1,76 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    color: #000;
+    background-color: #002779;
+}
+body
+{
+    font-size: 12px;
+    line-height: 150%;
+    font-family: "verdana" , "arial" , "helvetica" , "sans-serif";
+}
+table
+{
+    font-size: 12px;
+    line-height: 150%;
+    font-family: "verdana" , "arial" , "helvetica" , "sans-serif";
+}
+input
+{
+    font-size: 12px;
+    font-family: "verdana" , "arial" , "helvetica" , "sans-serif";
+}
+
+.txt
+{
+    border: solid 1px #111;
+}
+
+.lblMsg
+{
+    background: url(../images/tip.gif) no-repeat;
+    padding-left: 18px;
+    color: #78D9FF;
+}
+img
+{
+    margin: 0;
+    padding: 0;
+}
+
+.login_1
+{
+    background: url('../images/login_1.jpg');
+    width: 468px;
+    height: 23px;
+}
+
+.login_2
+{
+    background: url('../images/login_2.jpg');
+    width: 468px;
+    height: 147px;
+}
+.login_3
+{
+    background: url('../images/login_3.jpg');
+    width: 16px;
+    height: 122px;
+}
+.login_4
+{
+    background: url('../images/login_4.jpg');
+    width: 16px;
+    height: 122px;
+}
+.login_5
+{
+    background: url('../images/login_5.jpg');
+    width: 468px;
+    height: 16px;
+}
